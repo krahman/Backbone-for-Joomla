@@ -1,0 +1,29 @@
+<extension version="1.6" type="plugin" group="system" method="upgrade">
+	<name>Installer</name>
+	<creationDate>December 1, 2012</creationDate>
+
+	<author>Extly.com</author>
+	<authorEmail>support@extly.com</authorEmail>
+	<authorUrl>http://www.extly.com</authorUrl>
+	<copyright>Copyright (C) 2007 - 2012 Prieco, S.A. All rights reserved.</copyright>
+	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
+
+	<version>1.0.0</version>
+	<description>HelloWorldForJoomla installation</description>
+	<scriptfile>install.script.php</scriptfile>
+	<files>
+		<filename plugin="installer">installer.php</filename>
+	</files>
+	<cogs>
+		<cog type="library" enabled="true" protected="false">
+			lib_extly
+			<name>Extly Framework</name>
+			<description>The Extly Framework Shared Library</description>
+		</cog>
+		<cog type="component" client="site" access="0" enabled="true" protected="false" remove_admin_menu="false">
+			com_helloworldforjoomla
+			<name>HelloWorldForJoomla Component</name>
+			<description>The HelloWorldForJoomla Component Component</description>
+		</cog>
+	</cogs>
+</extension>

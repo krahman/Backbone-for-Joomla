@@ -1,0 +1,155 @@
+#rokinstall-logo {background-image: url(../libraries/extly/images/extly-logo_200.png);}
+
+.rokinstall-icon > span {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABfCAMAAADMH1dkAAABjFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy8vK/v78AAAAAAAAAAACJiYnj4+P7+/sAAAAAAAD39/f6+voAAAAAAABBQUEAAAAAAAAAAAA/Pz8AAAAAAADo6OgAAAAAAACLi4sAAAAAAADAwMC4uLj6+voAAACysrIAAAAAAADt7e3h4eEAAAC9vb0AAADi4uI9PT0AAADJyckAAABpaWmxsbHp6ekAAAAAAAC8vLzi4uIAAACGhoY5OTk8PDwAAADm5uZiYmIAAAAAAABvb2/l5eVsbGze3t5ERESOjo7u7u7j4+Ps7Ozx8fEAAACDg4M3NzcAAACZmZnQ0ND39/fHx8fz8/NycnLd3d22trY7OzsAAADk5OQAAAAAAADa2trExMSrq6sAAACYmJh+fn4AAAAAAAAAAADT09PPz89kZGSIiIhGRkYAAAAAAADCwsKRkZG6urqVlZXDw8Pg4ODg4OD29vbs7Ozh4eHy8vLe3t7Dw8P////6xlMmAAAAg3RSTlMAAAgmGAYWDyEqFR8OJQHbgCMRMVmy8yco5/MaCT4LExBABy7BNBxYJCB/hfQechQszrUKgQWzQheOPE1zwB0tgrQvW0dEDMNTKQ1Jsku3PFbNs8/cN11JEmqJ5o/aR6WGRSvEOhuokV8Ca2E2OzKanVFaOjA/k1SDUpK2tejOtNqkfR5eDHUAAALkSURBVHhe7dbXc9pMEADwCBWQhASSCKBQTTU1gB33uHfHcfyl9t57L18t+49Ht0J3wvgtL/GM9+lmfnNFe3d7OvETwR0MMWgGRY47FANSSAtJAYZ+E/hz+xlNEodRTwv8bwCRTCiISGchDbOSdAzgrGYi0llIw1hYInaq2u+Js8TrvJDNCnymhxbj+3OeOT1KRoomVTU5Eumb0F/tmPAMSIxb1qTPOK/nSdTGqt84OqerTWYUqTJjyJQZQ6bMGKLeBbhZZcYQs5SQE5gnP9JdzCk5zDDFoxjH4V2hQj6nKEouX9CHNls0U0ZCluWEkTLFAcQr1Jmd7nVL07MdY2pMP3D6dkvgRnc3MT/lHBgPRYmPxcGL+Mryg0RNEV3UTaPqmH1rpXzlaROguXl9/0Yr7GIh1bkNcHFyIcEXL1+9hN3btT6Ga22AyEiyIuX48swXHLpYCbiYN+Zs+NaZz+rXjFmbGCxtKTqivj1annn5Sn6c1sOtO70mQVoTCoJc2rh339KmxtKKUVxrPARbFgouBkNVcKJUN5RA4XTIevR5pjy6rSPqytYTwPiaWueeV4ovmn/EjDyHGKgUcRHnN5db62klZHUB6rWwi3kjBoiv32jzFa3YA7A7qYKLpvY2/q7h6MZ7a6H4oUsyYJi6i8Hax8wna9xRsLuY4SgvefVWVFq1lpqc8zJvz/nrkBgOp0nZmy7FwS4tZtCGawIJrAuH1QQSWBcQj2wcVwVyGnAbadOHAUlV8QDQJkVy6y/s4dHB5k7/xfbewTpERnghTZ7sKMS9O+a+oN8BiKbyKcfoi01fUFSZl4lBG3uyOVHXyoveiWdI9Xc0sjSGRJMT4MZ40rEB5LKq9Sdaw1Kz3DA2iP21StE/7DhgRCYHhyWG3wd/4xcNLIjaYvkfVP+niJJrUScJmI2MLwlhdQcN00cU00dx719imHiidV9PUdIyE226Zf/9798y+rd06Gaz/yx2TH7J+AE2SMy25fgy+AAAAABJRU5ErkJggg==);}
+
+body table.adminform th {
+	text-align:center !important;
+	font-size:18px;
+	padding-bottom:20px;
+	color:#555;
+	font-family:Helvetica,Arial,sans-serif
+}
+
+#rokinstall-logo {
+	background-repeat:no-repeat;
+	min-height:234px;
+	padding-top:15px;
+	padding-right:50px;
+	background-position:40px 0px
+}
+
+#rokinstall-status {
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:14px;
+	font-weight:700;
+	color:#444;
+	text-shadow:1px 1px 0 #fff;
+	margin:0 0 20px 260px;
+	padding:25px 25px 10px 25px;
+	border:1px solid #cecece;
+	background:#f4f4f4;
+	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.1);
+	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.1);
+	box-shadow:inset 0 1px 4px rgba(0,0,0,0.1);
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px
+}
+
+#rokinstall-status li {
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1);
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.1);
+	-webkit-border-radius:16px;
+	-moz-border-radius:16px;
+	border-radius:16px;
+	margin-bottom:15px;
+	text-indent:10px
+}
+
+.rokinstall-icon > span {
+	display:block;
+	width:32px;
+	height:32px
+}
+
+#rokinstall-status .rokinstall-row {
+	display:block;
+	height:32px;
+	line-height:32px;
+	border-radius:16px;
+	white-space:nowrap;
+	padding-right:25px
+}
+
+.rokinstall-icon {
+	display:inline-block;
+	background-repeat:no-repeat;
+	height:32px;
+	width:32px;
+	float:left;
+	-webkit-border-radius:16px;
+	-moz-border-radius:16px;
+	border-radius:16px;
+	-moz-box-shadow:inset 0 2px 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow:inset 0 2px 4px rgba(0,0,0,0.2);
+	box-shadow:inset 0 2px 4px rgba(0,0,0,0.2)
+}
+
+#rokinstall-status {
+	list-style:none
+}
+
+
+
+
+/* SUCCESS */
+.rokinstall-success {
+	background:#e6f0d7
+}
+
+.rokinstall-success .rokinstall-icon {
+	background:#7db947;
+	background:-webkit-linear-gradient(#7db947,#9ace6a);
+	background:-moz-linear-gradient(#7db947,#9ace6a);
+	background:-o-linear-gradient(#7db947,#9ace6a);
+	background:-ms-linear-gradient(#7db947,#9ace6a);
+	background:linear-gradient(#7db947,#9ace6a)
+}
+
+.rokinstall-success .rokinstall-icon > span {
+	background-position:3px 6px
+}
+
+#rokinstall-status {
+	list-style:none
+}
+
+/* UPDATE */
+.rokinstall-update {
+	background:#e9eef2
+}
+
+.rokinstall-update .rokinstall-icon {
+	background:#297ab7;
+	background:-webkit-linear-gradient(#297ab7,#338dcf);
+	background:-moz-linear-gradient(#297ab7,#338dcf);
+	background:-o-linear-gradient(#297ab7,#338dcf);
+	background:-ms-linear-gradient(#297ab7,#338dcf);
+	background:linear-gradient(#297ab7,#338dcf)
+}
+
+.rokinstall-update .rokinstall-icon > span {
+	background-position:3px -29px
+}
+
+/* FAILURE */
+.rokinstall-failure {
+	background:#fdf1f1;
+	color:#bd4648;
+}
+
+.rokinstall-failure .rokinstall-icon {
+	background:#c93130;
+	background:-webkit-linear-gradient(#c93130,#f53b3b);
+	background:-moz-linear-gradient(#c93130,#f53b3b);
+	background:-o-linear-gradient(#c93130,#f53b3b);
+	background:-ms-linear-gradient(#c93130,#f53b3b);
+	background:linear-gradient(#c93130,#f53b3b)
+}
+
+.rokinstall-failure .rokinstall-icon > span {
+	background-position:3px -64px
+}
+
+.rokinstall-failure .rokinstall-errormsg {
+	text-indent:42px;
+	display:block;
+	padding-bottom: 10px;
+	color:#bd4648;
+	font-weight: normal;
+	font-size: 13px;
+
+}
+
+

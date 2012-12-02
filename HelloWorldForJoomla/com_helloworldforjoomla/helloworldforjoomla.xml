@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.7.0" method="upgrade">
+	<name>com_helloworldforjoomla</name>
+	<creationDate>December 2012</creationDate>
+	
+	<author>Extly.com</author>
+	<authorEmail>support@extly.com</authorEmail>
+	<authorUrl>http://www.extly.com</authorUrl>
+	<copyright>Copyright (C) 2007 - 2012 Prieco, S.A. All rights reserved.</copyright>
+	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
+	
+	<version>1.0.0</version>
+	<description>COM_HELLOWORLDFORJOOMLA_DESCRIPTION</description>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>    
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+	</update>
+	<media destination="com_helloworldforjoomla" folder="media">
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+	</media>
+	<files folder="site">
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>controllers</folder>
+		<filename>index.html</filename>
+		<filename>helloworldforjoomla.php</filename>
+		<filename>controller.php</filename>
+	</files>
+	<administration>
+		<menu img="../media/com_helloworldforjoomla/images/extly-icon.png">COM_HELLOWORLDFORJOOMLA_NAME</menu>
+		<submenu>
+			<menu link="option=com_helloworldforjoomla&amp;view=todo" img="../media/com_helloworldforjoomla/images/info.png">COM_HELLOWORLDFORJOOMLA_MENU_ABOUT</menu>
+		</submenu>	
+		<files folder="admin">
+			<folder>views</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>controllers</folder>
+			<folder>tables</folder>
+			<folder>language</folder>
+			<filename>index.html</filename>
+			<filename>helloworldforjoomla.php</filename>
+			<filename>controller.php</filename>
+		</files>
+	</administration>
+</extension>
